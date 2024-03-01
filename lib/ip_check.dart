@@ -7,7 +7,7 @@
 import "dart:convert";
 import "package:http/http.dart" as http;
 import "package:ip_check/models/ip.dart";
-const stringUrl = "https://api.ipify.org?format=json";
+const stringUrl = "https://ipapi.co/json/";
 
 //La chiamata asincrona è una chiamata che non blocca il processo principale.
 //In questo caso, la chiamata asincrona è necessaria per evitare che l'applicazione si blocchi durante la richiesta HTTP.
